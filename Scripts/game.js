@@ -26,7 +26,7 @@ var menu;
 var manifest = [
     { id: "cloud", src: "assets/images/asteroid.png" },
     { id: "island", src: "assets/images/astronaut.png" },
-    { id: "ocean", src: "assets/images/space2.jpg" },
+    { id: "ocean", src: "assets/images/space.jpg" },
     { id: "plane", src: "assets/images/rocket.png" },
     { id: "playButton", src: "assets/images/playButton.png" },
     { id: "playAgainButton", src: "assets/images/playAgainButton.png" },
