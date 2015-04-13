@@ -11,7 +11,6 @@ var states;
     var GamePlay = (function () {
         function GamePlay() {
             this.clouds = [];
-            stage.cursor = "none";
             // Instantiate Game Container
             this.game = new createjs.Container();
 

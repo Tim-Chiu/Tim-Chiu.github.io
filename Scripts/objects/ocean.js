@@ -13,7 +13,7 @@ var objects;
         function Ocean() {
             _super.call(this, assetLoader.getResult("ocean"));
             // PUBLIC INSTANCE VARIABLES
-            this._dy = 0.3;
+            this._dy = 1;
             this.reset();
         }
         // PUBLIC METHODS ++++++++++++++++++++++++++++++++++++++++++
@@ -27,7 +27,7 @@ var objects;
         };
         // PRIVATE METHODS +++++++++++++++++++++++++++++++++++++++++
         Ocean.prototype._checkBounds = function () {
-            if (this.x === -760) {
+            if (this.x === -632) {
                 this.reset();
             }
         };
